@@ -1,0 +1,94 @@
+*{
+    margin:0; padding:0;
+}
+.container{
+    width:1100px; height:auto; margin:15px; padding:10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-name{
+    font-size:45px;
+    text-transform: uppercase;
+}
+.logo-name:hover{
+    transition-duration: 2s;
+    color:green;
+}
+.name{
+    font-family: fantasy;
+    letter-spacing: 12px;
+    color: #ff12545;
+}
+.name:hover{
+    font-family: sans-serif;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    padding:40px;
+}
+ul li a{
+    justify-content: space-between;
+    text-decoration: none;
+    padding:25px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-family: fantasy;
+    color:black;
+}
+ul li a:hover{
+    letter-spacing: 3px;
+    color: darkturquoise;
+}
+.b{
+    width:1100px;
+    height:600px;
+    background-image:url(apple-background-desk-electronics-399161.jpg);
+    background-size: cover;
+}
+.c{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: monospace;
+}
+.d{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: monospace;
+    font-size: 40px;
+}
+.f{
+    width:300px;
+    height:12px;
+    font-family: inherit;
+    margin-left: 400px;
+    text-align: justify;
+}
+.g{
+   width:100%;
+    height: auto;
+    text-align: center;
+    padding-top: 200px;
+}
+.btn1{
+    margin-top:110px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 12px;
+    padding:2px;
+    font-family: tahoma;
+    font-weight:bold;
+    background-color: aqua;
+}
+.btn2{
+    margin-top:110px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 12px;
+    padding:2px;
+    font-family: tahoma;
+    font-weight:bold;
+    background-color:white;
+}
